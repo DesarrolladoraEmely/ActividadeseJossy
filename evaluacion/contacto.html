@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contactanos</h1>
+    <img src="IMG/contactanos.avif" alt="contactanos" width="300px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4472.098571883266!2d-75.61548271799529!3d6.261341381155589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442be3a365ff2b%3A0x438aabbbcb9c81ab!2sWorld%20Lion%20Tours%20Agencia%20de%20Turismo!5e1!3m2!1ses-419!2sco!4v1738080762513!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+    <p>
+        ¡Nos encantaría saber de ti! Si tienes preguntas, sugerencias o simplemente quieres compartir tu experiencia, no dudes en contactarnos. Puedes escribirnos a través de nuestras redes sociales, correo electrónico o visitarnos en nuestra tienda. ¡Estamos aquí para ayudarte y hacer de tu experiencia algo dulce y especial!
+    </p>
+    <form>
+        <label>Nombre</label>
+        <input require name="nombreCliente" type="text" placeholder="Escriba en mayuscula"> <br>
+        <label>Celular o Telefono</label>
+        <input require type="tel"> <br>
+        <label>Correo Electronico</label>
+        <input require name="correo" type="email"> <br>
+
+        <label>Tipo de pedido</label>
+        <input type="checkbox" name="Plan" value="Pareja">  2 helados de corazon <br>
+        <input type="checkbox" name="Plan" value="Familiar"> 6 helados de corazon <br>
+        <input type="checkbox" name="Plan" value="Amigos"> 10 heados de corazon <br>
+        <input type="checkbox" name="Plan" value="Otro"> Otro <br>
+        <p> ¿Donde te comunico?</p>
+        <select name="contacto">
+            <option value="WhatsApp">WhatsApp</option>
+            <option value="Telefono">Llamada Telefonica</option>
+        </select> <br> <br>
+        <label>Mensaje:</label>
+        <textarea name="mensaje"></textarea> <br>
+        <button type="submit">enviar datos</button>
+        <button require type="reset">borrar datos</button> <br>
+
+    <a href="./index.html">Ir A Inicio</a> <br>
+    <a href="./nosotros.html">Ir A Nosotros</a> <br>
+    <a href="./servicios.html">Ir A Servicios</a> <br>
+    <a href="./contacto.html">Ir a Contacto</a>
+</body>
+</html>
